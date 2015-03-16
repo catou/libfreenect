@@ -1,0 +1,7 @@
+$ git clone https://github.com/OpenKinect/libfreenect.git //télécharge le projet, créé local master
+$ cd libfreenect                                            //cd vers la source
+$ git branch --track unstable origin/unstable        //créé une branche local 'unstable' du dépôt distant
+$ git checkout master                                //consulte la branche 'master' ou 'unstable'
+$ ou
+$ git checkout unstable
+$ git pull                                           //mise à jour du contenu de la branche sélectionnée
